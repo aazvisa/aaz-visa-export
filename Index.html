@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAZ VISA EXPORT | Your Gateway to the World</title>
+    <link rel="stylesheet" href="style.css">
+  <head>
+  
+    <head>
+    <meta charset="UTF-8">
+    <title>AAZ VISA EXPORT</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+    
+    
+  </head>
+  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="logo.png" alt="AAZ Logo" class="main-logo">
+            <span class="brand-name">AAZ VISA EXPORT</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#apply">Apply Now</a></li>
+            <li><a href="#admin-login">Admin</a></li>
+        </ul>
+        <div class="contact-info">
+            <a href="tel:+918818852109" class="btn-call"><i class="fas fa-phone"></i> +91 8818852109</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="animate-text">Your Gateway to <span>190+ Countries</span></h1>
+                <p>Expert Visa Processing & Travel Planning for a Seamless Journey.</p>
+                <div class="stats-bar">
+                    <div class="stat-item"><strong>1000+</strong> <span>Visa Success</span></div>
+                    <div class="stat-item"><strong>15+</strong> <span>Years Exp.</span></div>
+                </div>
+                <div class="hero-btns">
+                    <a href="#apply" class="btn-primary">Apply Online</a>
+                    <a href="https://wa.me/918818852109" class="btn-secondary">Consult an Expert</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Our Premium Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-passport"></i>
+                <h3>Tourist Visa</h3>
+                <p>Explore the world with hassle-free documentation.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-briefcase"></i>
+                <h3>Work Permit</h3>
+                <p>Build your career in Europe, Gulf, or Canada.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-plane"></i>
+                <h3>Ticket Booking</h3>
+                <p>Best international flight rates guaranteed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="apply-section">
+        <div class="form-container glass">
+            <h2>Visa Application Portal</h2>
+            <form id="visaForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="tel" placeholder="Mobile (+91...)" required>
+                <input type="email" placeholder="Email Address" required>
+                
+                <div class="upload-box">
+                    <label>Passport Size Photo</label>
+                    <input type="file" accept="image/*">
+                </div>
+                <div class="upload-box">
+                    <label>Passport Front & Back Page</label>
+                    <input type="file" multiple>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit & Generate Slip</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="payment-section">
+        <h2>Secure Payment</h2>
+        <div class="qr-box glass">
+            <img src="qr_code.jpg" alt="UPI QR Code" class="qr-img">
+            <p>Scan to Pay Consultancy Fees</p>
+            <div class="payment-icons">
+                <i class="fab fa-google-pay"></i>
+                <i class="fab fa-amazon-pay"></i>
+                <i class="fas fa-credit-card"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>What Our Clients Say</h2>
+        <div id="review-slider" class="glass">
+            <p id="review-text">"AAZ Visa Export made my Canada visa process very smooth!"</p>
+            <h4 id="review-author">- Rahul Sharma</h4>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="profile_pic.jpg" alt="Abhishek Ahirwar" class="owner-pic">
+            <p><strong>Abhishek Ahirwar</strong><br>Founder & CEO, AAZ VISA EXPORT</p>
+            <p>Tikamgarh, Madhya Pradesh | info.aazvisa@gmail.com</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918818852109" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+      ... (aapka baaki website ka code) ...
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
+
+<div id="admin-auth" class="glass-form">
+    <h2>🔒 Admin Access Only</h2>
+    <input type="password" id="adminPass" placeholder="Enter Secret Password">
+    <button onclick="checkAdmin()">Login to Dashboard</button>
+</div>
+
+<div id="admin-dashboard" style="display:none;">
+    <h1>Welcome, Abhishek!</h1>
+    <div class="stats-grid">
+        <div class="stat-card">Total Applications: <span id="count">124</span></div>
+        <div class="stat-card">Pending Visas: <span id="pending">45</span></div>
+    </div>
+    
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="candidate-list">
+            <tr>
+                <td>Rahul Kumar</td>
+                <td>88188XXXXX</td>
+                <td><span class="status-pending">Pending</span></td>
+                <td><button class="btn-view">View Docs</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="admin-trigger" onclick="showLogin()">🔒</div>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content glass">
+        <h3>AAZ Admin Access</h3>
+        <input type="password" id="adminPassword" placeholder="Enter Secret Password">
+        <button onclick="validateLogin()">Login</button>
+        <button onclick="closeLogin()" class="btn-close">Cancel</button>
+    </div>
+</div>
+
+<div id="adminPanel" class="admin-full-screen" style="display:none;">
+    <div class="admin-sidebar">
+        <h2>AAZ Control</h2>
+        <ul>
+            <li onclick="showTab('stats')">📈 Live Stats</li>
+            <li onclick="showTab('candidates')">👥 Candidates</li>
+            <li onclick="showTab('edit')">⚙️ Edit Site</li>
+            <li onclick="logout()" class="logout">Logout</li>
+        </ul>
+    </div>
+
+    <div class="admin-main">
+        <div id="tab-stats" class="tab-content">
+            <h2>Website Traffic (Live)</h2>
+            <div class="stats-grid">
+                <div class="card"><h3>Total Visitors</h3><p id="totalViews">1,240</p></div>
+                <div class="card"><h3>Active Right Now</h3><p id="liveNow">5</p></div>
+                <div class="card"><h3>New Applications</h3><p>12</p></div>
+            </div>
+        </div>
+
+        <div id="tab-candidates" class="tab-content" style="display:none;">
+            <h2>Recent Applications</h2>
+            <table class="admin-table">
+                <thead>
+                    <tr><th>Name</th><th>Mobile</th><th>Status</th><th>Docs</th></tr>
+                </thead>
+                <tbody id="candidateList">
+                    <tr><td>Rahul Kumar</td><td>+91 881...</td><td>Pending</td><td><button>View</button></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
